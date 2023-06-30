@@ -1,0 +1,40 @@
+.main{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color:rgb(0, 0, 0);
+  background-color: rgba(142, 237, 18, 0.37);
+}
+
+.form{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.table{
+  border: 1px solid black;
+  box-shadow: 3px 3px grey;
+  
+}
+
+.cell{
+  
+  border: 1px solid black;
+}
+
+button:hover{
+    box-shadow: 3px 3px grey;
+    color: white;
+    background-color: red;
+}
+
+.upd:hover{
+  box-shadow: 3px 3px grey;
+  color: white;
+  background-color:purple;
+}
